@@ -29,18 +29,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         }
         Parse.initialize(with: configuration)
         saveInstallationObject()
-//        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) {
-//            (granted, error) in
-//            print("Permission granted: \(granted)")
-//            guard granted else { return }
-//            self.getNotificationSettings()
-//        }
+
         
-        PFTwitterUtils.initialize(withConsumerKey: "H7r2iI2CK5c07nyAf7zHiZLWL", consumerSecret:"4IxCcYHzDnxAEwtpBzn9hjlg5OiXxwnm8HtIwKXd2H5xrDAbpy")
+        PFTwitterUtils.initialize(withConsumerKey: "", consumerSecret:"")
         PFFacebookUtils.initializeFacebook(applicationLaunchOptions: launchOptions)
         
-        GMSServices.provideAPIKey("AIzaSyAZwfkx-2Y9NuQOO2AyJidFRDPq6kUUS9A")
-        GMSPlacesClient.provideAPIKey("AIzaSyCEVEtNGrmKdbk7LulIeIT4Snx4jazqQkI")
+        GMSServices.provideAPIKey("")
+        GMSPlacesClient.provideAPIKey("")
         
         let image = UIImage(named: "Wlcome")
         let imageView = UIImageView()
