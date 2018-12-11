@@ -1,0 +1,94 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.28.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.28.0):
+    - FBSDKCoreKit
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - LocationPicker (1.2.0)
+  - LocationPickerViewController (3.3)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/FacebookUtils (1.17.1):
+    - FBSDKCoreKit (~> 4.28.0)
+    - FBSDKLoginKit (~> 4.28.0)
+    - FBSDKShareKit (~> 4.28.0)
+    - FBSDKTVOSKit (~> 4.28.0)
+    - Parse/Core
+  - Parse/TwitterUtils (1.17.1):
+    - Parse/Core
+  - ParseUI (1.2.0):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
+  - ProgressHUD (2.60)
+  - PureLayout (3.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - GoogleMaps
+  - GooglePlaces
+  - JSQMessagesViewController
+  - LocationPicker
+  - LocationPickerViewController
+  - Parse
+  - Parse/FacebookUtils
+  - Parse/TwitterUtils
+  - ParseUI
+  - ProgressHUD
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleMaps
+    - GooglePlaces
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer
+    - LocationPicker
+    - LocationPickerViewController
+    - Parse
+    - ParseUI
+    - ProgressHUD
+    - PureLayout
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: ca961e279113f691fd83dc634c0bbad9d4e3f370
+  FBSDKLoginKit: b077381c27d800f21661757e8140cf2c80a91e4a
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  LocationPicker: d91f9fe50493d8058391fe1408aa2a8db49a584d
+  LocationPickerViewController: 8190e6bc3562e5fe5c52d92b23786f634b6de42c
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  ParseUI: 2b37a0bc692a3e7666cf0c37b5521dfddd74a1af
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
+
+PODFILE CHECKSUM: f2a9d2377e1fae527307b08b72766d014bcb97f2
+
+COCOAPODS: 1.5.3

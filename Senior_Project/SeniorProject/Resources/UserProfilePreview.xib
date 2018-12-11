@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wqr-mh-A8o" customClass="profilePreview" customModule="SeniorProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iUx-qT-jpz">
+                    <rect key="frame" x="16" y="72" width="343" height="221"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75f-j1-bLB">
+                    <rect key="frame" x="94" y="43" width="189" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RxL-Qo-AKr">
+                    <rect key="frame" x="188" y="307" width="1" height="33"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iN-gM-RRw">
+                    <rect key="frame" x="16" y="301" width="173" height="44"/>
+                    <state key="normal" image="sendButt"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivu-ci-ero">
+                    <rect key="frame" x="261" y="312" width="22" height="22"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="raq-C3-Wf6" firstAttribute="bottom" secondItem="0iN-gM-RRw" secondAttribute="bottom" constant="322" id="3Ad-co-DnW"/>
+                <constraint firstItem="0iN-gM-RRw" firstAttribute="top" secondItem="iUx-qT-jpz" secondAttribute="bottom" constant="8" symbolic="YES" id="ASw-o3-StW"/>
+                <constraint firstItem="75f-j1-bLB" firstAttribute="top" secondItem="raq-C3-Wf6" secondAttribute="top" constant="23" id="BXL-Xs-Aqz"/>
+                <constraint firstItem="RxL-Qo-AKr" firstAttribute="top" secondItem="wqr-mh-A8o" secondAttribute="top" constant="307" id="EID-I7-nCj"/>
+                <constraint firstItem="75f-j1-bLB" firstAttribute="centerX" secondItem="RxL-Qo-AKr" secondAttribute="centerX" id="Nhu-rH-AH5"/>
+                <constraint firstItem="raq-C3-Wf6" firstAttribute="trailing" secondItem="75f-j1-bLB" secondAttribute="trailing" constant="92" id="QD9-nT-0Jp"/>
+                <constraint firstItem="75f-j1-bLB" firstAttribute="leading" secondItem="raq-C3-Wf6" secondAttribute="leading" constant="94" id="Qd5-df-PR5"/>
+                <constraint firstItem="0iN-gM-RRw" firstAttribute="centerY" secondItem="RxL-Qo-AKr" secondAttribute="centerY" id="UBo-nz-Chk"/>
+                <constraint firstItem="iUx-qT-jpz" firstAttribute="trailing" secondItem="wqr-mh-A8o" secondAttribute="trailingMargin" id="WgF-27-Ekv"/>
+                <constraint firstItem="75f-j1-bLB" firstAttribute="trailing" secondItem="ivu-ci-ero" secondAttribute="trailing" id="X6F-V7-Qy8"/>
+                <constraint firstItem="iUx-qT-jpz" firstAttribute="top" secondItem="75f-j1-bLB" secondAttribute="bottom" constant="8" symbolic="YES" id="Ygk-mV-2Sh"/>
+                <constraint firstItem="0iN-gM-RRw" firstAttribute="trailing" secondItem="RxL-Qo-AKr" secondAttribute="trailing" id="cwG-OR-Y2F"/>
+                <constraint firstItem="RxL-Qo-AKr" firstAttribute="leading" secondItem="raq-C3-Wf6" secondAttribute="leading" constant="188" id="eqv-gI-fqr"/>
+                <constraint firstItem="RxL-Qo-AKr" firstAttribute="centerY" secondItem="ivu-ci-ero" secondAttribute="centerY" id="fWb-UY-apm"/>
+                <constraint firstItem="iUx-qT-jpz" firstAttribute="leading" secondItem="0iN-gM-RRw" secondAttribute="leading" id="sAY-WS-DDB"/>
+                <constraint firstItem="iUx-qT-jpz" firstAttribute="leading" secondItem="wqr-mh-A8o" secondAttribute="leadingMargin" id="u0g-mC-QWR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="raq-C3-Wf6"/>
+            <point key="canvasLocation" x="66" y="459"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sendButt" width="44" height="44"/>
+    </resources>
+</document>
