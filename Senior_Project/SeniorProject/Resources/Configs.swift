@@ -12,8 +12,8 @@ import AVFoundation
 import EventKit
 
 let APP_NAME = "TeamUp"
-let PARSE_APP_ID = "mFw0WABkAS97lmYVmX0rfidBD0mfFtPG9PuVLetl"
-let PARSE_CLIENT_KEY = "cKlHupuGeFFr8TiT9roxFE0SlC29YJkIFLyDhQPX"
+let PARSE_APP_ID = ""
+let PARSE_CLIENT_KEY = ""
 let APPSTORE_LINK = "https://fontbonne.edu/TeamUp/"
 let deepPurple = UIColor(red: 74.0/255.0, green: 65.0/255.0, blue: 135.0/255.0, alpha: 1.0)
 let broderColor = UIColor(red: 0.0588, green: 0.0784, blue: 0.0745, alpha: 1).cgColor
