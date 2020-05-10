@@ -3,6 +3,32 @@ The app allows users to create sports events that enable nearby users to join. I
 
 App Screenshots
 
-**New Account**
+**Create New Account**
 
-![](Image/Picture1.png)
+![](Senior_ProjectI/Image/Picture1.png)
+
+**Setup location**
+
+![](Senior_ProjectI/Image/Picture2.png)
+
+**Public Game View**
+
+![](Senior_ProjectI/Image/Picture3.png)
+
+**Create a New Game**
+
+![](Senior_ProjectI/Image/Picture4.png)
+
+**User Game View**
+
+![](Senior_ProjectI/Image/Picture5.png)
+![](Senior_ProjectI/Image/Picture6.png)
+![](Senior_ProjectI/Image/Picture7.png)
+
+**Chat View**
+
+![](Senior_ProjectI/Image/Picture8.png)
+
+**User Profile**
+
+![](Senior_ProjectI/Image/Picture9.png)
